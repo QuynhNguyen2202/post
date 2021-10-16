@@ -1,0 +1,276 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* CSS Document */
+/* Reset CSS */
+*{ 
+	padding: 0;
+	margin: 0;
+}
+html{ 
+	scroll-behavior: smooth;
+}
+header{
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+	padding: 24px;
+	position: fixed;
+	z-index: 10000px;
+	background: rgba(74,78,255,0.56);
+}
+.logo a{
+	text-decoration: none;
+	font-size: 35px;
+	color: #E8F0F2;
+	font-family: 'Lobster', cursive;
+}
+.menu{
+	display: flex;
+	justify-content: flex-end;
+}
+.menu a{
+	font-size: 17px;
+	margin: 8px;
+	color: white;
+	font-style: bold;
+	text-decoration: none;
+}
+.menu a:hover{
+	text-decoration: overline;
+}
+.icon{
+	font-size: 25px;
+	margin-left: 24px; 
+	color: aliceblue;
+}
+.banner{
+	background-image: url("ganyu_wallpapers_4.png");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+}
+.gif{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	background: rgba(108,140,255,0.34);
+	padding: 30px 70px;
+}
+.gif h1{
+	font-style: bold;
+	font-size: 45px;
+	color: #132ABB;
+}
+.gif h2{
+	color: white;
+	font-style: italic;
+	font-size: 30px;
+	padding-bottom: 20px;
+	
+}
+.gif a{
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+	padding: 5px 40px;
+	letter-spacing: 5px;
+}
+.gif a:hover{
+	background: white;
+	color: black;
+}
+#tongquan{
+	background-color: #90B1FF;
+}
+.noidung{
+	padding: 100px;
+}
+.chandung img{
+	width: 90%;
+	padding: 20px;
+	
+}
+.chandung{
+	text-align: center;
+	font-size: 25px;
+	padding-top: 20px;
+}
+.ingame img{
+	width: 77%;
+	padding: 10px;
+}
+.ingame{
+	text-align: center;
+	font-size: 25px;
+	padding-top: 20px;
+}
+.head{
+	padding-top: 40px;
+	font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 10px;
+	text-align: left;
+}
+.body{
+	font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 10px;
+	text-align: left;
+}
+.infor{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 25px;
+}
+.infor li{
+    display: inline-block;
+    width: 49%;
+	text-align: match-parent;
+	font-size: 20px;
+	padding: 5px;
+}
+.infor span{
+    font-family: Raleway,sans-serif;
+    font-weight: 700;
+    margin-right: 10px;
+    float: left;
+	text-align: match-parent;
+	font-size: 20px;
+}
+.infor p{
+	margin-top: 0;
+    margin-bottom: 1px;
+	
+}
+#tinhcach{
+	background-color: #BBE1FA;
+	background-size: cover;
+}
+#tinhcach .text h1{
+	padding-top: 15px;
+	font-size: 32px;
+	padding-bottom: 10px;
+	background: #3282B8;
+	text-align: center;
+	color:#1B262C;
+}
+#tinhcach .text p{
+	text-align: left;
+	font-size: 25px;
+	color: #1B262C;
+	padding: 15px;
+	text-align: center;
+}
+#tinhcach img{
+	width: 50%;
+	text-align: center;
+}
+#ngoaihinh {
+	background-color: #BBE1FA;
+	background-size: cover;
+}
+#ngoaihinh h1{ 
+	padding-top: 15px;
+	font-size: 32px;
+	padding-bottom: 10px;
+	background: #3282B8;
+	text-align: center;
+	color:#1B262C;
+}
+#ngoaihinh h6{
+	text-align:center;
+	font-size: 25px;
+	color: #1B262C;
+	padding: 15px;
+}
+#ngoaihinh p{
+	text-align: left;
+	font-size:20px;
+	color: #1B262C;
+	padding: 15px;
+}
+#ngoaihinh img{
+	width: 30%;
+	text-align: center;
+	padding: 10px;
+}
+#thienphu{
+	background-image: url("thphu.jfif");
+	background-size: cover;
+	color: white;
+}
+#thienphu h1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 32px;
+	background: #3282B8;
+	text-align: center;
+	color:#1B262C;
+}
+table{
+	margin:0px auto;
+	padding: 50px;
+	border-collapse: collapse;
+	width: 1250px;
+	text-align: center;
+	border-color: white;
+	background: rgba(0,5,76,0.40);
+}
+table td,th{
+	height: 50px;
+	font-size: 20px;
+	padding: 5px;
+}
+#cungmenh h1{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 32px;
+	background: #3282B8;
+	text-align: center;
+	color:#1B262C;
+}
+#cungmenh{
+	background-image: url("cmenh.png");
+	background-size: cover;
+	color: white;
+}
+#cungmenh table{
+	margin:0px auto;
+	padding: 50px;
+	border-collapse: collapse;
+	width: 1250;
+	text-align: center;
+	border-color: white;
+	background:rgba(0,8,115,0.70);
+}
+#cungmenh table td,th{
+	height: 50px;
+	font-size: 20px;
+	padding: 5px;
+}
+.social{
+	list-style: none;
+    margin-bottom: 8px;
+    padding: 15px;
+	text-align: center;
+	font-size: 32px;
+	height: 70px;
+	color: white;
+	background: #3B6978;
+	background-size: cover;
+}
+.footer{
+	height: 70px;
+	background: #3B6978;
+	background-size: cover;
+}
+.back-to-top{
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	z-index: 10000;
+	font-size: 32px;
+	color: aliceblue;
+}
